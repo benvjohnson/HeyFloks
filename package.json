@@ -1,0 +1,38 @@
+{
+  "name": "heyfloks",
+  "version": "1.0.0",
+  "description": "HEYFLOKS is a fully featured Chat App using MongoDB, Bootstrap, Node.js, CSS and responsive with all devices and supported with Dark, Light modes. It has many features like one to one chat, group chat, contact list, send files, online users, read and unread new messages from users, authentication pages and many more.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benvjohnson/HeyFloks.git"
+  },
+  "author": "Ben Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benvjohnson/HeyFloks/issues"
+  },
+  "homepage": "https://github.com/benvjohnson/HeyFloks#readme",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.10.0",
+    "node-localstorage": "^2.2.1",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2",
+    "request": "^2.88.2",
+    "socket.io": "^4.6.1",
+    "validator": "^13.9.0"
+  }
+}
